@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="107.092" tests="14" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="C:\Users\amy\IdeaProjects\com.amy.pinke\target\test-classes;C:\Users\amy\IdeaProjects\com.amy.pinke\target\classes;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\amy\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amy\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\amy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\amy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\amy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\amy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\amy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\amy\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\amy\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\amy\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\amy\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\amy\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\amy\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\amy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\amy\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\amy\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\amy\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\amy\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\amy\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\amy\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\amy\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\amy\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\amy\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\amy\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\amy\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\amy\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\amy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\amy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\amy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\amy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\amy\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\amy\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\amy\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\amy\.m2\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;C:\Users\amy\.m2\repository\com\esotericsoftware\yamlbeans\yamlbeans\1.14\yamlbeans-1.14.jar;C:\Users\amy\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\amy\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.11.0\log4j-slf4j-impl-2.11.0.jar;C:\Users\amy\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\amy\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\amy\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\amy\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="user.country.format" value="CN"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\amy\AppData\Local\Temp\surefire3448694037186123701\surefirebooter3962020117475962934.jar C:\Users\amy\AppData\Local\Temp\surefire3448694037186123701 2020-07-11T20-15-08_190-jvmRun1 surefire1392842411928647114tmp surefire_05933278445625496100tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\amy\IdeaProjects\com.amy.pinke\target\test-classes;C:\Users\amy\IdeaProjects\com.amy.pinke\target\classes;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\amy\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\amy\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\amy\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\amy\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\amy\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\amy\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\amy\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\amy\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\amy\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\amy\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\amy\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\amy\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\amy\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\amy\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\amy\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\amy\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\amy\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\amy\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\amy\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\amy\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\amy\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\amy\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\amy\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\amy\.m2\repository\com\aventstack\extentreports\3.0.6\extentreports-3.0.6.jar;C:\Users\amy\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\amy\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\amy\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\amy\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\amy\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\amy\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\amy\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\amy\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\amy\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\amy\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\amy\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\amy\.m2\repository\com\vimalselvam\testng-extentsreport\1.3.1\testng-extentsreport-1.3.1.jar;C:\Users\amy\.m2\repository\com\esotericsoftware\yamlbeans\yamlbeans\1.14\yamlbeans-1.14.jar;C:\Users\amy\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\amy\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.11.0\log4j-slf4j-impl-2.11.0.jar;C:\Users\amy\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;C:\Users\amy\.m2\repository\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;C:\Users\amy\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\amy\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\amy"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="C:\Users\amy\IdeaProjects\com.amy.pinke"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\amy\AppData\Local\Temp\surefire3448694037186123701\surefirebooter3962020117475962934.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="amy"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\amy\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\amy\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="C:\Users\amy\IdeaProjects\com.amy.pinke"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="zh"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Python27;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\Amy\Automation\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\amy\AppData\Local\Programs\Fiddler;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testRegisterNameExist" classname="com.amy.ecshopdemo.EcshopRegisterPageTest" time="13.215">
+    <failure message="Expected condition failed: waiting for text (&apos;* 用户名已经存在,请重新输入&apos;) to be present in element [[[[LoggedChromeDriver: chrome on WINDOWS (6a5bfc22781bfd88b85f6cff088f68ed)] -&gt; name: username]] -&gt; xpath: ../span] (tried for 5 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: com.amy.utils.LoggedChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 6a5bfc22781bfd88b85f6cff088f68ed" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for text ('* 用户名已经存在,请重新输入') to be present in element [[[[LoggedChromeDriver: chrome on WINDOWS (6a5bfc22781bfd88b85f6cff088f68ed)] -> name: username]] -> xpath: ../span] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6a5bfc22781bfd88b85f6cff088f68ed
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterNameExist(EcshopRegisterPageTest.java:68)
+</failure>
+    <system-out><![CDATA[20:15:17.807 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+20:15:27.217 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 62 testRegisterNameExist - 测试用例-name存在
+20:15:33.245 INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+20:15:33.379 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+20:15:34.247 INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+20:15:34.356 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:34.758 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:34.958 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 8001
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+七月 11, 2020 8:15:27 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegisterSuccess" classname="com.amy.ecshopdemo.EcshopRegisterPageTest" time="12.228">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3/../div/div/p&quot;}&#10;  (Session info: chrome=83.0.4103.116)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: com.amy.utils.LoggedChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 5dd07b327abc4f3e992ac7c307bf4152&#10;*** Element info: {Using=xpath, value=//h3/../div/div/p}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3/../div/div/p"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5dd07b327abc4f3e992ac7c307bf4152
+*** Element info: {Using=xpath, value=//h3/../div/div/p}
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterSuccess(EcshopRegisterPageTest.java:56)
+</failure>
+    <system-out><![CDATA[20:15:40.517 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+20:15:41.184 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+20:15:47.146 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+20:15:49.636 INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+20:15:49.713 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+20:15:50.399 INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+20:15:50.494 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:50.923 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:51.154 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:51.224 INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+20:15:51.291 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:15:51.876 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:15:52.106 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:15:52.169 INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+20:15:52.215 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:15:52.586 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:15:52.774 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:15:52.812 INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+20:15:52.858 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:15:53.253 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:15:53.453 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:15:53.495 INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+20:15:53.556 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:15:53.971 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:15:54.166 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:15:54.209 INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+20:15:54.262 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+20:15:59.460 ERROR com.amy.utils.LoggedChromeDriver 31 findElement - 使用xpath: //h3/../div/div/p， 未找到元素
+]]></system-out>
+    <system-err><![CDATA[七月 11, 2020 8:15:47 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testRegisterSuccess" classname="com.amy.ecshopdemo.EcshopRegisterPageTest" time="7.592">
+    <failure message="unexpected alert open: {Alert text : - 两次输入密码不一致&#10;}&#10;  (Session info: chrome=83.0.4103.116): - 两次输入密码不一致&#10;&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: com.amy.utils.LoggedChromeDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: b5fef035169141c14e914633fde0ed31&#10;*** Element info: {Using=xpath, value=//h3/../div/div/p}" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : - 两次输入密码不一致
+}
+  (Session info: chrome=83.0.4103.116): - 两次输入密码不一致
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b5fef035169141c14e914633fde0ed31
+*** Element info: {Using=xpath, value=//h3/../div/div/p}
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterSuccess(EcshopRegisterPageTest.java:56)
+</failure>
+    <system-out><![CDATA[20:15:59.465 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+20:15:59.818 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+20:16:05.492 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+20:16:07.964 INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+20:16:08.106 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+20:16:08.570 INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+20:16:08.680 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:16:09.463 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:16:09.763 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:16:09.860 INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+20:16:09.898 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:16:10.315 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:16:10.536 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:16:10.581 INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+20:16:10.657 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:16:11.138 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:16:11.404 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:16:11.451 INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+20:16:11.499 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:16:11.854 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:16:12.072 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:16:12.124 INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+20:16:12.164 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:16:12.477 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:16:12.695 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:16:12.761 INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+20:16:12.822 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+]]></system-out>
+    <system-err><![CDATA[七月 11, 2020 8:16:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Test1" classname="com.amy.TestNGDemo.CalcTest" time="0.003"/>
+  <testcase name="Test1" classname="com.amy.TestNGDemo.CalcTest" time="0"/>
+  <testcase name="Test1" classname="com.amy.TestNGDemo.CalcTest" time="0.001"/>
+  <testcase name="testFibo" classname="com.amy.TestNGDemo.FibonacciTest" time="0.006"/>
+  <testcase name="testFibo" classname="com.amy.TestNGDemo.FibonacciTest" time="0.006"/>
+  <testcase name="testFibo" classname="com.amy.TestNGDemo.FibonacciTest" time="0.002"/>
+  <testcase name="testFibo" classname="com.amy.TestNGDemo.FibonacciTest" time="0.001"/>
+  <testcase name="testFibo_negative" classname="com.amy.TestNGDemo.FibonacciTest" time="0.008"/>
+  <testcase name="testDriver" classname="com.amy.TestNGDemo.TestDemo3" time="6.198"/>
+  <testcase name="testBaidu" classname="com.amy.TestNGDemo.WebTest" time="6.281"/>
+  <testcase name="testBaidu02" classname="com.amy.TestNGDemo.WebTest" time="13.333">
+    <failure message="Expected condition failed: waiting for title to contain &quot;test&quot;. Current title: &quot;百度一下，你就知道&quot; (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 93625af755e43e38c430481d2dcaa441" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "test". Current title: "百度一下，你就知道" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93625af755e43e38c430481d2dcaa441
+	at com.amy.TestNGDemo.WebTest.testBaidu02(WebTest.java:46)
+</failure>
+    <system-err><![CDATA[七月 11, 2020 8:16:45 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

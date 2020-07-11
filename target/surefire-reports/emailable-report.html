@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">103,318</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.amy.TestNGDemo.WebTest</td><td><a href="#m0">testBaidu02</a></td><td rowspan="1">1594469805231</td><td rowspan="1">13363</td></tr><tr class="failedodd"><td rowspan="3">com.amy.ecshopdemo.EcshopRegisterPageTest</td><td><a href="#m1">testRegisterNameExist</a></td><td rowspan="1">1594469727212</td><td rowspan="1">13239</td></tr><tr class="failedodd"><td><a href="#m2">testRegisterSuccess</a></td><td rowspan="2">1594469747145</td><td rowspan="2">12316</td></tr><tr class="failedodd"><td><a href="#m3">testRegisterSuccess</a></td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.amy.TestNGDemo.CalcTest</td><td><a href="#m4">Test1</a></td><td rowspan="3">1594469774461</td><td rowspan="3">1</td></tr><tr class="passedeven"><td><a href="#m5">Test1</a></td></tr><tr class="passedeven"><td><a href="#m6">Test1</a></td></tr><tr class="passedodd"><td rowspan="5">com.amy.TestNGDemo.FibonacciTest</td><td><a href="#m7">testFibo</a></td><td rowspan="4">1594469774468</td><td rowspan="4">0</td></tr><tr class="passedodd"><td><a href="#m8">testFibo</a></td></tr><tr class="passedodd"><td><a href="#m9">testFibo</a></td></tr><tr class="passedodd"><td><a href="#m10">testFibo</a></td></tr><tr class="passedodd"><td><a href="#m11">testFibo_negative</a></td><td rowspan="1">1594469774472</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="1">com.amy.TestNGDemo.TestDemo3</td><td><a href="#m12">testDriver</a></td><td rowspan="1">1594469780393</td><td rowspan="1">6381</td></tr><tr class="passedodd"><td rowspan="1">com.amy.TestNGDemo.WebTest</td><td><a href="#m13">testBaidu</a></td><td rowspan="1">1594469793099</td><td rowspan="1">6317</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">com.amy.TestNGDemo.WebTest#testBaidu02</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;test&quot;. Current title: &quot;百度一下，你就知道&quot; (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93625af755e43e38c430481d2dcaa441
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.amy.TestNGDemo.WebTest.testBaidu02(WebTest.java:46)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.amy.ecshopdemo.EcshopRegisterPageTest#testRegisterNameExist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;* 用户名已经存在,请重新输入&apos;) to be present in element [[[[LoggedChromeDriver: chrome on WINDOWS (6a5bfc22781bfd88b85f6cff088f68ed)] -&gt; name: username]] -&gt; xpath: ../span] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6a5bfc22781bfd88b85f6cff088f68ed
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterNameExist(EcshopRegisterPageTest.java:68)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.amy.ecshopdemo.EcshopRegisterPageTest#testRegisterSuccess</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>eee123456</td><td>eee123456@163.com</td><td>eee123456</td><td>eee123456</td><td>123456789</td><td>用户名 eee123456 注册成功</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h3/../div/div/p&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5dd07b327abc4f3e992ac7c307bf4152
+*** Element info: {Using=xpath, value=//h3/../div/div/p}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at com.amy.utils.LoggedChromeDriver.findElement(LoggedChromeDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at com.amy.ecshop.pages.EcshopRegisterPage.assertRegisterResult(EcshopRegisterPage.java:141)
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterSuccess(EcshopRegisterPageTest.java:56)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.amy.ecshopdemo.EcshopRegisterPageTest#testRegisterSuccess</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr><tr class="param stripe"><td>fff123456</td><td>fff123456@163.com</td><td>fff123456</td><td>eee123456</td><td>123456789</td><td>- 两次输入密码不一致
+</td></tr><tr><th colspan="6">Exception</th></tr><tr><td colspan="6"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : - 两次输入密码不一致
+}
+  (Session info: chrome=83.0.4103.116): - 两次输入密码不一致
+
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;AMY-PC&apos;, ip: &apos;192.168.1.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b5fef035169141c14e914633fde0ed31
+*** Element info: {Using=xpath, value=//h3/../div/div/p}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at com.amy.utils.LoggedChromeDriver.findElement(LoggedChromeDriver.java:28)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy28.getText(Unknown Source)
+	at com.amy.ecshop.pages.EcshopRegisterPage.assertRegisterResult(EcshopRegisterPage.java:141)
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterSuccess(EcshopRegisterPageTest.java:56)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.amy.TestNGDemo.CalcTest#Test1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>2</td><td>20</td><td>20</td><td>40</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.amy.TestNGDemo.CalcTest#Test1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>1</td><td>10</td><td>20</td><td>30</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.amy.TestNGDemo.CalcTest#Test1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>3</td><td>20</td><td>30</td><td>50</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.amy.TestNGDemo.FibonacciTest#testFibo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>3</td><td>2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.amy.TestNGDemo.FibonacciTest#testFibo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>6</td><td>8</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.amy.TestNGDemo.FibonacciTest#testFibo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>1</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.amy.TestNGDemo.FibonacciTest#testFibo</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>2</td><td>1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.amy.TestNGDemo.FibonacciTest#testFibo_negative</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.amy.TestNGDemo.TestDemo3#testDriver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.amy.TestNGDemo.WebTest#testBaidu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

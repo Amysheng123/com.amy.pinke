@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.amy.TestNGDemo.WebTest">
+        <methods>
+          <include name="testBaidu02"/>
+          <include name="initDriver"/>
+          <include name="stopService"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.amy.TestNGDemo.WebTest -->
+      <class name="com.amy.ecshopdemo.EcshopRegisterPageTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="testRegisterSuccess" invocation-numbers="0 1"/>
+          <include name="initDriver"/>
+          <include name="stopService"/>
+          <include name="testRegisterNameExist"/>
+        </methods>
+      </class> <!-- com.amy.ecshopdemo.EcshopRegisterPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

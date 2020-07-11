@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 107.092 s <<< FAILURE! - in TestSuite
+testRegisterNameExist(com.amy.ecshopdemo.EcshopRegisterPageTest)  Time elapsed: 13.215 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for text ('* 用户名已经存在,请重新输入') to be present in element [[[[LoggedChromeDriver: chrome on WINDOWS (6a5bfc22781bfd88b85f6cff088f68ed)] -> name: username]] -> xpath: ../span] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 6a5bfc22781bfd88b85f6cff088f68ed
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterNameExist(EcshopRegisterPageTest.java:68)
+
+testRegisterSuccess(com.amy.ecshopdemo.EcshopRegisterPageTest)  Time elapsed: 12.228 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h3/../div/div/p"}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60169}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5dd07b327abc4f3e992ac7c307bf4152
+*** Element info: {Using=xpath, value=//h3/../div/div/p}
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterSuccess(EcshopRegisterPageTest.java:56)
+
+testRegisterSuccess(com.amy.ecshopdemo.EcshopRegisterPageTest)  Time elapsed: 7.592 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : - 两次输入密码不一致
+}
+  (Session info: chrome=83.0.4103.116): - 两次输入密码不一致
+
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: com.amy.utils.LoggedChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b5fef035169141c14e914633fde0ed31
+*** Element info: {Using=xpath, value=//h3/../div/div/p}
+	at com.amy.ecshopdemo.EcshopRegisterPageTest.testRegisterSuccess(EcshopRegisterPageTest.java:56)
+
+testBaidu02(com.amy.TestNGDemo.WebTest)  Time elapsed: 13.333 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for title to contain "test". Current title: "百度一下，你就知道" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AMY-PC', ip: '192.168.1.2', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\amy\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:60356}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 93625af755e43e38c430481d2dcaa441
+	at com.amy.TestNGDemo.WebTest.testBaidu02(WebTest.java:46)
+

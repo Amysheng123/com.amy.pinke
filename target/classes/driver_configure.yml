@@ -1,0 +1,12 @@
+chrome:
+  driver: C:\\Amy\\Automation\\chromedriver\\chromedriver.exe
+  port: 8001
+  options:
+    binary: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+    acceptInsecureCerts: true
+firefox:
+  driver: C:\Amy\Automation\chromedriver\geckodriver.exe
+  port: 8002
+  options:
+    binary: C:\Program Files\Mozilla Firefox\firefox.exe
+    acceptInsecureCerts: true

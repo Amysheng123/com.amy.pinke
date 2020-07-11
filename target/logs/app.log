@@ -1,0 +1,276 @@
+2020-07-11 at 12:40:28 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 12:46:17 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 12:46:25 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 12:46:27 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 12:46:28 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 12:46:28 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 12:46:29 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 12:46:29 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 12:46:29 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 12:46:30 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 12:46:35 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 12:46:35 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 12:46:40 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 12:46:42 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 12:46:42 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 12:46:43 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 12:46:43 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 12:46:44 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 12:46:44 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 12:46:45 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 12:46:45 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 12:46:47 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 39 stopService - 停止服务
+2020-07-11 at 17:10:00 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 17:10:14 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 17:10:18 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 17:10:19 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 17:10:22 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 17:10:22 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 17:10:23 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 17:10:23 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 17:10:23 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 17:10:23 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 17:10:24 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 17:10:24 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 17:10:24 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 17:10:24 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 17:10:24 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 17:10:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 17:10:25 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 17:10:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 17:10:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 17:10:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 17:10:25 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 17:10:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 17:10:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 17:10:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 17:10:26 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 17:10:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+2020-07-11 at 17:10:31 CST ERROR com.amy.utils.LoggedChromeDriver 31 findElement - 使用xpath: //h3/../div/div/p， 未找到元素
+2020-07-11 at 17:10:32 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 17:10:32 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 17:10:39 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 17:10:41 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 17:10:41 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 17:10:42 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 17:10:42 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 17:10:43 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 17:10:43 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 17:10:43 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 17:10:43 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 17:10:44 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 17:10:44 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 17:10:44 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 17:10:44 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 17:10:45 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 17:10:45 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 17:10:45 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 17:10:45 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 17:10:46 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 17:10:46 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 17:10:46 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 17:10:46 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 17:10:47 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 17:10:47 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 17:10:47 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 17:10:47 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+2020-07-11 at 17:10:48 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 17:10:48 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 39 stopService - 停止服务
+2020-07-11 at 19:20:09 CST ERROR com.amy.listener.MyTestListener 59 onTestFailure - 未在测试类com.amy.TestNGDemo.Demo1中找到driver字段， 自动截图功能失败
+2020-07-11 at 19:20:09 CST ERROR com.amy.listener.MyTestListener 59 onTestFailure - 未在测试类com.amy.TestNGDemo.Demo2中找到driver字段， 自动截图功能失败
+2020-07-11 at 19:20:48 CST INFO  com.amy.listener.MyTestListener 47 onTestFailure - snapshots目录不存在，创建该目录
+2020-07-11 at 19:20:51 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 19:20:58 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 62 testRegisterNameExist - 测试用例-name存在
+2020-07-11 at 19:21:01 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 19:21:01 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 19:21:02 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 19:21:02 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:21:03 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:21:03 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:21:28 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 19:21:37 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 19:21:39 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 19:21:39 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 19:21:40 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 19:21:40 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:21:41 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:21:41 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:21:41 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 19:21:41 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:21:42 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:21:43 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:21:43 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 19:21:43 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:21:44 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:21:44 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:21:44 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 19:21:44 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:21:45 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:21:45 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:21:45 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 19:21:45 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:21:46 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:21:47 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:21:47 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 19:21:47 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+2020-07-11 at 19:21:52 CST ERROR com.amy.utils.LoggedChromeDriver 31 findElement - 使用xpath: //h3/../div/div/p， 未找到元素
+2020-07-11 at 19:21:53 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 19:21:53 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 19:22:03 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 19:22:05 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 19:22:05 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 19:22:06 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 19:22:06 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:22:07 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:22:07 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:22:07 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 19:22:07 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:22:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:22:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:22:09 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 19:22:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:22:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:22:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:22:11 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 19:22:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:22:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:22:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:22:12 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 19:22:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:22:13 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:22:13 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:22:13 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 19:22:14 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+2020-07-11 at 19:22:20 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 19:22:21 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 39 stopService - 停止服务
+2020-07-11 at 19:24:42 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 19:24:49 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 62 testRegisterNameExist - 测试用例-name存在
+2020-07-11 at 19:24:52 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 19:24:52 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 19:24:52 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 19:24:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:24:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:24:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:24:59 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 19:25:01 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 19:25:05 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 19:25:07 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 19:25:07 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 19:25:08 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 19:25:08 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:25:08 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:25:08 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:25:09 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 19:25:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:25:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:25:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:25:10 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 19:25:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:25:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:25:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:25:10 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 19:25:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:25:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:25:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:25:11 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 19:25:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:25:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:25:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:25:11 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 19:25:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+2020-07-11 at 19:25:16 CST ERROR com.amy.utils.LoggedChromeDriver 31 findElement - 使用xpath: //h3/../div/div/p， 未找到元素
+2020-07-11 at 19:25:16 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 19:25:17 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+2020-07-11 at 19:25:22 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+2020-07-11 at 19:25:24 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+2020-07-11 at 19:25:24 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+2020-07-11 at 19:25:24 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+2020-07-11 at 19:25:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:25:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:25:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+2020-07-11 at 19:25:25 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+2020-07-11 at 19:25:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:25:25 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:25:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+2020-07-11 at 19:25:26 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+2020-07-11 at 19:25:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:25:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:25:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+2020-07-11 at 19:25:26 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+2020-07-11 at 19:25:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:25:26 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:25:27 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+2020-07-11 at 19:25:27 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+2020-07-11 at 19:25:27 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:25:27 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:25:27 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+2020-07-11 at 19:25:27 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+2020-07-11 at 19:25:27 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+2020-07-11 at 19:25:27 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+2020-07-11 at 19:25:30 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 39 stopService - 停止服务
+2020-07-11 at 20:15:17 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - ��ʼ����֮ǰ���������
+2020-07-11 at 20:15:27 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 62 testRegisterNameExist - ��������-name����
+2020-07-11 at 20:15:33 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - ���ע��
+2020-07-11 at 20:15:33 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��link text: ���ע�ᣬ �ҵ�Ԫ��
+2020-07-11 at 20:15:34 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - �����û���
+2020-07-11 at 20:15:34 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:15:34 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:15:34 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:15:40 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - �ر������
+2020-07-11 at 20:15:41 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - ��ʼ����֮ǰ���������
+2020-07-11 at 20:15:47 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - �򿪲�����ҳִ�в�������-success
+2020-07-11 at 20:15:49 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - ���ע��
+2020-07-11 at 20:15:49 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��link text: ���ע�ᣬ �ҵ�Ԫ��
+2020-07-11 at 20:15:50 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - �����û���
+2020-07-11 at 20:15:50 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:15:50 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:15:51 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:15:51 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - ��������
+2020-07-11 at 20:15:51 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: email�� �ҵ�Ԫ��
+2020-07-11 at 20:15:51 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: email�� �ҵ�Ԫ��
+2020-07-11 at 20:15:52 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: email�� �ҵ�Ԫ��
+2020-07-11 at 20:15:52 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - ��������
+2020-07-11 at 20:15:52 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: password�� �ҵ�Ԫ��
+2020-07-11 at 20:15:52 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: password�� �ҵ�Ԫ��
+2020-07-11 at 20:15:52 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: password�� �ҵ�Ԫ��
+2020-07-11 at 20:15:52 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - ȷ������
+2020-07-11 at 20:15:52 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: confirm_password�� �ҵ�Ԫ��
+2020-07-11 at 20:15:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: confirm_password�� �ҵ�Ԫ��
+2020-07-11 at 20:15:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: confirm_password�� �ҵ�Ԫ��
+2020-07-11 at 20:15:53 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - �����ֻ�����
+2020-07-11 at 20:15:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: extend_field5�� �ҵ�Ԫ��
+2020-07-11 at 20:15:53 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: extend_field5�� �ҵ�Ԫ��
+2020-07-11 at 20:15:54 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: extend_field5�� �ҵ�Ԫ��
+2020-07-11 at 20:15:54 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - ȷ���ύע����Ϣ
+2020-07-11 at 20:15:54 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: Submit�� �ҵ�Ԫ��
+2020-07-11 at 20:15:59 CST ERROR com.amy.utils.LoggedChromeDriver 31 findElement - ʹ��xpath: //h3/../div/div/p�� δ�ҵ�Ԫ��
+2020-07-11 at 20:15:59 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - �ر������
+2020-07-11 at 20:15:59 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - ��ʼ����֮ǰ���������
+2020-07-11 at 20:16:05 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - �򿪲�����ҳִ�в�������-success
+2020-07-11 at 20:16:07 CST INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - ���ע��
+2020-07-11 at 20:16:08 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��link text: ���ע�ᣬ �ҵ�Ԫ��
+2020-07-11 at 20:16:08 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - �����û���
+2020-07-11 at 20:16:08 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:16:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:16:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: username�� �ҵ�Ԫ��
+2020-07-11 at 20:16:09 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - ��������
+2020-07-11 at 20:16:09 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: email�� �ҵ�Ԫ��
+2020-07-11 at 20:16:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: email�� �ҵ�Ԫ��
+2020-07-11 at 20:16:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: email�� �ҵ�Ԫ��
+2020-07-11 at 20:16:10 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - ��������
+2020-07-11 at 20:16:10 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: password�� �ҵ�Ԫ��
+2020-07-11 at 20:16:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: password�� �ҵ�Ԫ��
+2020-07-11 at 20:16:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: password�� �ҵ�Ԫ��
+2020-07-11 at 20:16:11 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - ȷ������
+2020-07-11 at 20:16:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: confirm_password�� �ҵ�Ԫ��
+2020-07-11 at 20:16:11 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: confirm_password�� �ҵ�Ԫ��
+2020-07-11 at 20:16:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: confirm_password�� �ҵ�Ԫ��
+2020-07-11 at 20:16:12 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - �����ֻ�����
+2020-07-11 at 20:16:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: extend_field5�� �ҵ�Ԫ��
+2020-07-11 at 20:16:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: extend_field5�� �ҵ�Ԫ��
+2020-07-11 at 20:16:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: extend_field5�� �ҵ�Ԫ��
+2020-07-11 at 20:16:12 CST INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - ȷ���ύע����Ϣ
+2020-07-11 at 20:16:12 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��name: Submit�� �ҵ�Ԫ��
+2020-07-11 at 20:16:13 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - �ر������
+2020-07-11 at 20:16:13 CST INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 39 stopService - ֹͣ����
+2020-07-11 at 20:16:23 CST INFO  com.amy.utils.LoggedChromeDriver 29 findElement - ʹ��id: kw�� �ҵ�Ԫ��

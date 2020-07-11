@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGDemo">
+    <test name="amyTestNGDemo">
+<!--        <packages>
+            <package name="com.amy.TestNGDemo" />
+        </packages>-->
+        <classes>
+            <class name="com.amy.TestNGDemo.Demo1"/>
+            <class name="com.amy.TestNGDemo.Demo2"/>
+            <class name="com.amy.TestNGDemo.CalcTest"/>
+            <class name="com.amy.TestNGDemo.FibonacciTest"/>
+            <class name="com.amy.TestNGDemo.WebTest"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="com.amy.listener.ExtentTestNGIReporterListener" />
+    </listeners>
+</suite>

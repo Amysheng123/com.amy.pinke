@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGDemo">
+    <test name="amyTestNGDemo1">
+<!--        <packages>
+            <package name="com.amy.TestNGDemo" />
+        </packages>-->
+        <classes>
+            <class name="com.amy.TestNGDemo.Demo1"/>
+            <class name="com.amy.TestNGDemo.Demo2"/>
+        </classes>
+    </test>
+    <test name="amyTestNGDemo2">
+        <classes>
+            <class name="com.amy.TestNGDemo.CalcTest"/>
+            <class name="com.amy.TestNGDemo.FibonacciTest"/>
+            <class name="com.amy.TestNGDemo.WebTest"/>
+        </classes>
+    </test>
+    <test name="EcshopTest">
+        <classes>
+            <class name="com.amy.ecshopdemo.EcshopRegisterPageTest" />
+        </classes>
+    </test>
+    <suite-files>
+
+    </suite-files>
+
+    <listeners>
+        <listener class-name="com.amy.listener.MyTestListener" />
+    </listeners>
+</suite>

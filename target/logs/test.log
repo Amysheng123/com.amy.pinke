@@ -1,0 +1,66 @@
+20:15:17.807 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+20:15:27.217 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 62 testRegisterNameExist - 测试用例-name存在
+20:15:33.245 INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+20:15:33.379 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+20:15:34.247 INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+20:15:34.356 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:34.758 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:34.958 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:40.517 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+20:15:41.184 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+20:15:47.146 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+20:15:49.636 INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+20:15:49.713 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+20:15:50.399 INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+20:15:50.494 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:50.923 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:51.154 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:15:51.224 INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+20:15:51.291 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:15:51.876 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:15:52.106 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:15:52.169 INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+20:15:52.215 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:15:52.586 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:15:52.774 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:15:52.812 INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+20:15:52.858 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:15:53.253 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:15:53.453 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:15:53.495 INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+20:15:53.556 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:15:53.971 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:15:54.166 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:15:54.209 INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+20:15:54.262 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+20:15:59.460 ERROR com.amy.utils.LoggedChromeDriver 31 findElement - 使用xpath: //h3/../div/div/p， 未找到元素
+20:15:59.465 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+20:15:59.818 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 27 initDriver - 开始测试之前启动浏览器
+20:16:05.492 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 45 testRegisterSuccess - 打开测试网页执行测试用例-success
+20:16:07.964 INFO  com.amy.ecshop.pages.EcshopIndexPage 21 clickRegisterLink - 点击注册
+20:16:08.106 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用link text: 免费注册， 找到元素
+20:16:08.570 INFO  com.amy.ecshop.pages.EcshopRegisterPage 78 inputUserName - 输入用户名
+20:16:08.680 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:16:09.463 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:16:09.763 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: username， 找到元素
+20:16:09.860 INFO  com.amy.ecshop.pages.EcshopRegisterPage 85 inputEmail - 输入邮箱
+20:16:09.898 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:16:10.315 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:16:10.536 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: email， 找到元素
+20:16:10.581 INFO  com.amy.ecshop.pages.EcshopRegisterPage 92 inputPassword - 输入密码
+20:16:10.657 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:16:11.138 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:16:11.404 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: password， 找到元素
+20:16:11.451 INFO  com.amy.ecshop.pages.EcshopRegisterPage 99 inputConfirmPassword - 确认密码
+20:16:11.499 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:16:11.854 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:16:12.072 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: confirm_password， 找到元素
+20:16:12.124 INFO  com.amy.ecshop.pages.EcshopRegisterPage 106 inputMobileNumber - 输入手机号码
+20:16:12.164 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:16:12.477 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:16:12.695 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: extend_field5， 找到元素
+20:16:12.761 INFO  com.amy.ecshop.pages.EcshopRegisterPage 125 clickRegBtn - 确认提交注册信息
+20:16:12.822 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用name: Submit， 找到元素
+20:16:13.080 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 34 closeDriver - 关闭浏览器
+20:16:13.426 INFO  com.amy.ecshopdemo.EcshopRegisterPageTest 39 stopService - 停止服务
+20:16:23.126 INFO  com.amy.utils.LoggedChromeDriver 29 findElement - 使用id: kw， 找到元素
