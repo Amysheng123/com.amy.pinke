@@ -1,32 +1,14 @@
 package com.amy.TestNGDemo;
 
-import com.amy.Service.WebDriverServiceUtils;
+import com.amy.TestData.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
-import java.util.concurrent.TimeUnit;
-
 import static org.testng.Assert.assertTrue;
 
-public class WebTest {
-    private WebDriver driver;
-
-    @BeforeMethod
-    public void initDriver(){
-        driver = WebDriverServiceUtils.getDriver();
-        driver.manage().timeouts().implicitlyWait(5L, TimeUnit.MILLISECONDS);
-    }
-    @AfterMethod
-    public void closeDriver(){
-        driver.close();
-    }
-    @AfterSuite
-    public void stopService(){
-        WebDriverServiceUtils.stopService();
-    }
+public class WebTest extends BaseTest {
 
     @Test
     public void testBaidu(){

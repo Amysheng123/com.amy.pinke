@@ -1,5 +1,6 @@
 package com.amy.TestNGDemo;
 
+import com.amy.TestData.BaseTest;
 import com.amy.utils.DriverServiceUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class TestDemo3 {
+public class TestDemo3 extends BaseTest {
     private WebDriver driver;
 
     @BeforeMethod

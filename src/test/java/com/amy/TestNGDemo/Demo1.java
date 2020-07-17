@@ -1,12 +1,13 @@
 package com.amy.TestNGDemo;
 
 
+import com.amy.TestData.BaseTest;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class Demo1 {
+public class Demo1 extends BaseTest {
     @Test
     public void Test11(){
         System.out.println("now running test11....");

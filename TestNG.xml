@@ -22,11 +22,8 @@
             <class name="com.amy.ecshopdemo.EcshopRegisterPageTest" />
         </classes>
     </test>
-    <suite-files>
-
-    </suite-files>
 
     <listeners>
-        <listener class-name="com.amy.listener.MyTestListener" />
+        <listener class-name="com.amy.listener.ExtentTestNGIReporterListener" />
     </listeners>
 </suite>

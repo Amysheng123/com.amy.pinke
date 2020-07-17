@@ -1,5 +1,6 @@
 package com.amy.TestNGDemo;
 
+import com.amy.TestData.BaseTest;
 import com.amy.api.Fibonacci;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class FibonacciTest {
+public class FibonacciTest extends BaseTest {
     @DataProvider(name = "fibo_test_data")
     public Object[][] getFibonacciData(){
         return new Object[][] {

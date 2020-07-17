@@ -1,5 +1,6 @@
 package com.amy.TestNGDemo;
 
+import com.amy.TestData.BaseTest;
 import com.amy.demo.Calc;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -11,7 +12,7 @@ import java.util.Iterator;
 
 import static org.testng.Assert.assertEquals;
 
-public class CalcTest {
+public class CalcTest extends BaseTest {
     private Calc calc;
     @BeforeClass
     public void init(){

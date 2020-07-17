@@ -36,9 +36,9 @@ public class MyTestListener extends TestListenerAdapter {
         String methodName = tr.getName();
         //1. 通过反射，从当前的测试类中取出当前运行的浏览器对应的driver对象
         Object currentTestObject = tr.getInstance(); //获取当前正在运行的测试类的实例；
-        Class<?> currentTestClass = tr.getTestClass().getRealClass(); // 获取当前运行的测试类；
+        Class<?> currentTestClass = tr.getTestClass().getClass().getSuperclass(); // 获取当前运行的测试类；
         try {
-            Field webDriverField = currentTestClass.getDeclaredField("driver");//获取当前测试类中定义的driver；
+            Field webDriverField = currentTestClass. getDeclaredField("driver");//获取当前测试类中定义的driver；
             webDriverField.setAccessible(true); //设置该字段可以被访问；
             WebDriver driver = (WebDriver)webDriverField.get(currentTestObject); // 获取driver对象
             // 2. 定义截图的目录和文件名
